@@ -8,5 +8,8 @@ matrix:
       sudo: required
       jdk: oraclejdk8
       
+script:
+  - gradle build
+
 before_install:
  - chmod +x gradlew
